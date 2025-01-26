@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background: black;
+    color: white;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.image-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    transition: opacity 0.3s ease;
+}
+
+.image-content h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.image-content p {
+    font-size: 1.2rem;
+} 
