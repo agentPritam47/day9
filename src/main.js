@@ -239,7 +239,6 @@ const tl = gsap.timeline({
         start: "top 0",
         end: "bottom bottom",
         scrub: 1,
-        markers: true,
         onUpdate: (self) => {
             // Calculate current index based on camera position
             const currentIndex = Math.floor(Math.abs(camera.position.z - 5) / spacing);
